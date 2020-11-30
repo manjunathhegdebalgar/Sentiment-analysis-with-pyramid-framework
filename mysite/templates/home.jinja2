@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sentiment analyzer</title>
+</head>
+<body>
+
+<center>
+<h1 style = "font-family:Georgia,serif; color:#4E443C; font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;">WRITE YOUR REVIEW TO KNOW THE SENTIMENT AND HIT ENTER</h1>
+</center>
+&nbsp;
+&nbsp;
+&nbsp;
+<center> <label>Review Goes Here <input id="review"/>  </label> </center>
+&nbsp;
+&nbsp;
+
+<center>
+    <strong id="printingplace" style="font-family:Georgia,serif; color: #003300; font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;">
+    </strong>
+</center>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="{{ request.static_url('mysite:static/renderer.js')
+    }}"></script>
+</body>
+</html>

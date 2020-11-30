@@ -1,0 +1,10 @@
+waitress
+pyramid
+nltk
+pandas
+sklearn==0.0
+numpy
+joblib
+Jinja2
+
+
