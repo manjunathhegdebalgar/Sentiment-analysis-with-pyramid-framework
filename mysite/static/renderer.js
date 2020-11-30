@@ -15,7 +15,7 @@ $(document).ready(function () {
                 var probability = data.probability
                 var starting_response_string = "The review is classified as "
                 var response_string_with_emotion = starting_response_string.concat(emotion)
-                var middle_response_string = response_string_with_emotion.concat(" by our search engine with the confidence of ")
+                var middle_response_string = response_string_with_emotion.concat(" by our engine with the confidence of ")
                 // final response contains the message shown to the user.
                 var pre_final_response = middle_response_string.concat(probability)
                 var final_response = pre_final_response.concat("%")
